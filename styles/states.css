@@ -1,0 +1,35 @@
+/* ------ Corps & enveloppe ------ */
+
+body {
+  margin: 0;
+}
+
+/* ------ Éléments de page ------ */
+
+h1 {
+  margin: 0 0 1em;
+  padding: 30vh 0;
+  font-size: 12rem;
+  text-align: center;
+}
+
+/* ------ Layout custom ------ */
+
+.header-bg {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+  background-blend-mode: overlay;
+}
+
+.header-bg.vermont {
+  background: #297929;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Montpelier_vermont_state_house_20.jpg);
+}
+
+.header-bg.alaska {
+  background: xxx;
+  background-image: xxx;
+}

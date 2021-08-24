@@ -11,6 +11,28 @@ main {
 }
 */
 
+/* ------ Classes standardisées ------ */
+
+.grid-container {
+  display: grid;
+}
+.flex-container {
+  display: flex;
+}
+.perfectlycentered {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;  
+}
+
+.unmargined {
+  margin: 0;
+  padding: 0;
+}
+
 /* ------ Éléments de page ------ */
 
 

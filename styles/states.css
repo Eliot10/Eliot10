@@ -13,10 +13,10 @@ h1 {
 }
 h2 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 p {
-  font-size: 4rem;
+  font-size: clamp(4rem, 5vw, 5rem);
 }
 
 /* ------ Layout custom ------ */
@@ -37,11 +37,16 @@ p {
   text-align: center;
 }
 
+.header-bg h1 {
+  text-shadow: 3px 3px white,
+              -3px -3px white;
+}
+
 .header-bg.vermont {
   background: #297929;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Montpelier_vermont_state_house_20.jpg);
+  /* background-image: linear-gradient(25deg, rgb(32,125,0) 0%, rgb(88,196,32) 100%); */
 }
-
 .header-bg.alaska {
   background: xxx;
   background-image: xxx;

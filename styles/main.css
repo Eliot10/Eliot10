@@ -25,7 +25,7 @@ main {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
 }
 
 .unmargined {
@@ -40,6 +40,9 @@ main {
 
 
 footer {
-  margin-top: 2.5rem;
+  margin: 2.5rem 1rem;
   font-size: 0.9rem;
+}
+footer a img {
+    width: 20vh;
 }

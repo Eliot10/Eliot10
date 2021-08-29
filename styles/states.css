@@ -16,7 +16,12 @@ h2 {
   font-size: 4rem;
 }
 p {
-  font-size: clamp(4rem, 5vw, 5rem);
+  font-size: 25px;
+  font-size: max(1rem, 3vw);
+}
+
+footer p {
+  font-size: 0.9rem;
 }
 
 /* ------ Layout custom ------ */
@@ -48,8 +53,8 @@ p {
   /* background-image: linear-gradient(25deg, rgb(32,125,0) 0%, rgb(88,196,32) 100%); */
 }
 .header-bg.alaska {
-  background: xxx;
-  background-image: xxx;
+  background: #8e0373;
+  background-image: url(https://live.staticflickr.com/65535/4985057469_d958233d8a_b.jpg);
 }
 
 
